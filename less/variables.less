@@ -12,3 +12,44 @@
 @shark: #212529;
 @eastern-blue: #17A2B8;
 @sandy-beach: #FFEBCD;
+
+
+/*Mobile Design*/
+
+@mobile: ~"(max-width: 500px)";
+
+header{
+    @media @mobile{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@mobile: ~"(max-width: 500px)";
+.main-content{
+    @media @mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@mobile: ~"(max-width: 500px)";
+.destination h4 p .btn{
+    @media @mobile{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@mobile: ~"(max-width: 500px)";
+.button-container{
+    @media @mobile{
+        flex-direction: column;
+        width: 50%;
+        height: 25px;
+    }
+}
